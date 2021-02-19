@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            RenzheCloud 订阅转换
+            订阅转换
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
             <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
@@ -252,6 +252,8 @@ export default {
           "Clash新参数": "clash&new_name=true",
           "ClashR新参数": "clashr&new_name=true",
           Clash: "clash",
+	  ClashR: "clashr",
+          Surge2: "surge&ver=2",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
           Quantumult: "quan",
@@ -259,15 +261,13 @@ export default {
           Surfboard: "surfboard",
           Loon: "loon",
           SSAndroid: "sssub",
-          V2Ray: "v2ray",
           ss: "ss",
           ssr: "ssr",
           ssd: "ssd",
-          ClashR: "clashr",
-          Surge2: "surge&ver=2",
+	  V2Ray: "v2ray",
         },
         customBackend: {
-          "renzhesubconverter.com": "https://renzhesubconverter.com/sub?",
+          "RenzheCloud": "https://renzhesubconverter.com/sub?",
         },
         backendOptions: [
           { value: "https://renzhesubconverter.com/sub?" },
@@ -350,61 +350,6 @@ export default {
                 label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量(与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
-              },
-              {
-                label: "ACL4SSR 本地 默认版 分组比较全",
-                value: "config/ACL4SSR.ini"
-              },
-              {
-                label: "ACL4SSR_Mini 本地 精简版",
-                value: "config/ACL4SSR_Mini.ini"
-              },
-              {
-                label: "ACL4SSR_Mini_NoAuto.ini 本地 精简版+无自动测速",
-                value: "config/ACL4SSR_Mini_NoAuto.ini"
-              },
-              {
-                label: "ACL4SSR_Mini_Fallback.ini 本地 精简版+fallback",
-                value: "config/ACL4SSR_Mini_Fallback.ini"
-              },
-              {
-                label: "ACL4SSR_BackCN 本地 回国",
-                value: "config/ACL4SSR_BackCN.ini"
-              },
-              {
-                label: "ACL4SSR_NoApple 本地 无苹果分流",
-                value: "config/ACL4SSR_NoApple.ini"
-              },
-              {
-                label: "ACL4SSR_NoAuto 本地 无自动测速 ",
-                value: "config/ACL4SSR_NoAuto.ini"
-              },
-              {
-                label: "ACL4SSR_NoAuto_NoApple 本地 无自动测速&无苹果分流",
-                value: "config/ACL4SSR_NoAuto_NoApple.ini"
-              },
-              {
-                label: "ACL4SSR_NoMicrosoft 本地 无微软分流",
-                value: "config/ACL4SSR_NoMicrosoft.ini"
-              },
-              {
-                label: "ACL4SSR_WithGFW 本地 GFW列表",
-                value: "config/ACL4SSR_WithGFW.ini"
-              }
-            ]
-          },
-          {
-            label: "universal",
-            options: [
-              {
-                label: "No-Urltest",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/universal/no-urltest.ini"
-              },
-              {
-                label: "Urltest",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/universal/urltest.ini"
               }
             ]
           }
