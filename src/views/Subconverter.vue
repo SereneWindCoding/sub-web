@@ -393,21 +393,14 @@ export default {
               }
             ]
           },
-          {
-            label: "universal",
+	  {
+            label: "customized",
             options: [
               {
-                label: "No-Urltest",
+                label: "RenzheCloud",
                 value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/universal/no-urltest.ini"
-              },
-              {
-                label: "Urltest",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/universal/urltest.ini"
+                  "https://raw.githubusercontent.com/SereneWindCoding/rule/main/renzhecloud.ini"
               }
-            ]
-          }
         ]
       },
       form: {
