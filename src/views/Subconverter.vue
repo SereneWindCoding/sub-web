@@ -274,6 +274,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "默认",
+            options: [
+              {
+                label: "不选，由接口提供方提供",
+                value: ""
+              }
+            ]
+          },
+          {
             label: "ACL4SSR",
             options: [
               {
@@ -393,16 +402,16 @@ export default {
               }
             ]
           },
-	  {
+          {
             label: "customized",
             options: [
               {
                 label: "RenzheCloud",
                 value:
-                  "https://raw.githubusercontent.com/SereneWindCoding/rule/main/renzhecloud.ini"
+                  "https://ghproxy.com/https://raw.githubusercontent.com/SereneWindCoding/rule/main/renzhecloud.ini"
               }
-         ]	
-          }	
+            ]
+          }
         ]
       },
       form: {
