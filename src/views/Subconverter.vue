@@ -401,6 +401,8 @@ export default {
                 value:
                   "https://raw.githubusercontent.com/SereneWindCoding/rule/main/renzhecloud.ini"
               }
+         ]	
+          }	
         ]
       },
       form: {
