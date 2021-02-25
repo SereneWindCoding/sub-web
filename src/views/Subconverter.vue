@@ -397,9 +397,14 @@ export default {
             label: "忍者云",
             options: [
               {
-                label: "负载均衡",
+                label: "负载均衡 Github",
                 value:
-                  "https://ghproxy.com/https://cdn.jsdelivr.net/gh/SereneWindCoding/Rules@main/RenzheCloud-Loadbalance.ini"
+                  "https://raw.githubusercontent.com/SereneWindCoding/Rules/main/RenzheCloud-Loadbalance.ini"
+              },
+	      {
+                label: "负载均衡 CDN",
+                value:
+                  "https://cdn.jsdelivr.net/gh/SereneWindCoding/Rules@main/RenzheCloud-Loadbalance.ini"
               }
             ]
           }
