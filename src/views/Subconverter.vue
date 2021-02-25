@@ -397,12 +397,7 @@ export default {
             label: "忍者云",
             options: [
               {
-                label: "负载均衡 Github",
-                value:
-                  "https://raw.githubusercontent.com/SereneWindCoding/Rules/main/RenzheCloud-Loadbalance.ini"
-              },
-	      {
-                label: "负载均衡 CDN",
+                label: "负载均衡",
                 value:
                   "https://cdn.jsdelivr.net/gh/SereneWindCoding/Rules@main/RenzheCloud-Loadbalance.ini"
               }
