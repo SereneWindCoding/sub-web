@@ -399,7 +399,7 @@ export default {
               {
                 label: "负载均衡",
                 value:
-                  "https://cdn.jsdelivr.net/gh/SereneWindCoding/Rules@main/RenzheCloud-Loadbalance.ini"
+                  "https://raw.githubusercontent.com/renzhecloudnetworks/Rules/main/RenzheCloud-Loadbalance.ini"
               }
             ]
           }
