@@ -394,10 +394,10 @@ export default {
             ]
           },
           {
-            label: "忍者云",
+            label: "RenzheCloud",
             options: [
               {
-                label: "负载均衡",
+                label: "默认",
                 value:
                   "https://raw.githubusercontent.com/renzhecloudnetworks/Rules/main/RenzheCloud-Loadbalance.ini"
               }
